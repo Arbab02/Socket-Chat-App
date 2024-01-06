@@ -9,11 +9,13 @@
   <div id="chat-container">
     <img src="https://covid19.unitedpeople.global/wp-content/uploads/2020/10/Saylani.jpg" alt="Chat Logo" class="logo">
     <h1 id="status-heading">Saylani Chat Room</h1>
-    <ul id="messages"></ul>
+  <input id="search-input" placeholder="Search messages" autocomplete="off"  />
+  <!-- <button id="search-button">Search</button> -->
+    <div id="messages"></div>
     <input id="message-input" autocomplete="off" /><button id="send">Send</button>
   </div>
+
   <script src="/socket.io/socket.io.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
-
